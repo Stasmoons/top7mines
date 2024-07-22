@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <title>Aviator</title>
+</head>
+
+<body>
+  <div class="background">
+    <div class="container">
+      <img class="pers-animate" src="assets/icons/plane.svg" alt="plane">
+
+      <div id="error-notification" class="error-notification deactivate">
+        <div class="error-background"></div>
+        <img class="icon-error" src="assets/icons/error.svg" alt="error">
+        <p id="text-error" class="text-error"></p>
+        <div id="error-exit" class="error-exit">
+          <img src="assets/icons/error-exit.svg" alt="exit">
+        </div>
+        <div id="error-progress" class="error-progress"></div>
+      </div>
+
+      <div class="top-content">
+        <img draggable="false" src="assets/icons/logo.svg" alt="logo" class="logo-game">
+        <p class="name-bot">@top7mines_bot</p>
+      </div>
+
+      <div class="print-signal" id="print-signal"><span>Click on<br>"GET SIGNAL"</span></div>
+      <div class="stop-signal-time deactivate" id="stop-signal-time-block">
+        <p class="stop-timer" id="stop-timer"></p>
+        <div class="stop-progress" id="stop-progress"></div>
+      </div>
+
+      <div class="button-game">
+        <button class="get-signal" id="get-signal">GET SIGNAL</button>
+        <button class="get-signal-two deactivate" id="get-signal-two">GET SIGNAL</button>
+        <a href="https://1wcvl.com/v3/landing-page/casino/play/aviator" class="game-here">GAME HERE</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
